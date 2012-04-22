@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ * -Status Hero Start-
+ */
+div.status_hero_avatars {
+	width: 670px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+div.status_hero_avatars img {
+	padding-right: 2px;
+	padding-left: 2px;
+	border: 0px;
+}
+
+div.status_hero {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+div.status_hero .order {
+	margin-right: 1px;
+	display: inline-block;
+	border: 1px solid #FFF;
+	background-color: #000;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 20px;
+}
+
+div.status_hero .order a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+div.status_hero .order a:link {
+	color: #FFF;
+}
+
+div.status_hero .order a:hover {
+	background-color: #666;
+}
+
+div.status_hero .img {
+	display: block;
+	width: 300px;
+}
+
+div.status_hero .name {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+	height: 36px;
+	width: 300px;
+}
+
+div.status_hero .hp,
+div.status_hero .atk,
+div.status_hero .dis,
+div.status_hero .res {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 25px;
+	height: 25px;
+	width: 80px;
+}
+
+div.status_hero .hp_point,
+div.status_hero .atk_point,
+div.status_hero .dis_point,
+div.status_hero .res_point {
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	height: 20px;
+	background-image: url(../images/ChexxBarColor.jpg);
+	border: 1px solid #000;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div.status_hero .skill,
+div.status_hero .item {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 25px;
+	width: 125px;
+	float: left;
+}
+
+div.status_hero .skill_list,
+div.status_hero .item_list {
+	display: inline-block;
+	line-height: 20px;
+	min-height: 25px;
+	width: 100px;
+	border: 1px solid #333;
+}
+
+div.status_equip {
+	width: 600px;
+	background-color: #666;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.status_equip .status_skill,
+div.status_equip .status_item {
+	display: inline-block;
+	width: 300px;
+	min-height: 50px;
+	background-color: #999;
+	float: left;
+}
+
+span.skill_set_block,
+span.item_set_block,
+span.skill_unset_block,
+span.item_unset_block {
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 23px;
+	width: 98px;
+	height: 23px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	cursor:move;
+}
+/* -Status End- */
+
+/*
+ * -Store Hero Start-
+ */
+div.store_hero_avatars {
+	width: 670px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+div.store_hero_avatars img {
+	padding-right: 2px;
+	padding-left: 2px;
+	border: 0px;
+}
+
+div.store_hero {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+div.store_hero .img {
+	display: block;
+	width: 300px;
+}
+
+div.store_hero .name {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+	height: 36px;
+	width: 300px;
+}
+
+div.store_hero .buyhero {
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 24px;
+	line-height: 24px;
+	height: 24px;
+}
+
+div.store_hero .hp,
+div.store_hero .atk,
+div.store_hero .dis,
+div.store_hero .skill,
+div.store_hero .item,
+div.store_hero .price,
+div.store_hero .res {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 25px;
+	height: 25px;
+	width: 80px;
+}
+
+div.store_hero .price_point {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	height: 20px;
+	width: 120px;
+}
+
+div.store_hero .hp_point,
+div.store_hero .atk_point,
+div.store_hero .dis_point,
+div.store_hero .skill_point,
+div.store_hero .item_point,
+div.store_hero .res_point {
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	height: 20px;
+	background-image: url(../images/ChexxBarColor.jpg);
+	border: 1px solid #000;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+/* -Store End- */
+
+/*
+ * -Status Arrange Start-
+ */
+div.status_arrange {
+	margin-left: auto;
+	margin-right: auto;
+	width: 670;
+	overflow: hidden;
+}
+
+div.status_arrange .heroA {
+	display: inline-block;
+	float: left;
+	width: 345px;
+	min-height: 52px;
+	border: 1px solid #000;
+}
+
+div.status_arrange .heroB {
+	display: inline-block;
+	float: left;
+	width: 115px;
+	min-height: 52px;
+	border: 1px solid #000;
+}
+
+div.status_arrange .map {
+	display: inline-block;
+	float: left;
+	width: 206px;
+	text-align: center;
+}
+
+div.status_arrange .map td {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #000;
+}
+
+div.status_arrange .map table {
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.status_arrange .map .icon {
+	display: inline-block;
+	cursor:move;
+	height: 50px;
+	width: 50px;
+}
+
+div.status_arrange .heroA .icon {
+	display: inline-block;
+	cursor: move;
+	height: 50px;
+	width: 113px;
+	border: 1px solid #000;
+}
+
+div.status_arrange .sort {
+	display: block;
+	cursor: move;
+	height: 50px;
+	width: 113px;
+	border: 1px solid #000;
+}
+
+div.status_arrange .icon .img,
+div.status_arrange .sort .img {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+div.status_arrange .icon .info,
+div.status_arrange .sort .info {
+	width: 63px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+div.status_arrange .icon .order,
+div.status_arrange .sort .order {
+	padding: 1px;
+	text-shadow : -1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px -1px 1px #FFF, 1px 1px 1px #FFF;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	text-align: left;
+	float: left;
+}
+/* -Status Arrange End- */
+
+/*
+ * -Battle and Friends Menu-
+ */
+div.friends, div.battle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	overflow: hidden;
+}
+
+div.friends .avatars,
+div.battle .avatars {
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 198px;
+	border: 1px solid #000;
+}
+
+div.friends .avatars .info,
+div.battle .avatars .info {
+	display: inline-block;
+	float: left;
+	height: 50px;
+	font-size: 16px;
+}
+
+div.friends .avatars .img,
+div.battle .avatars .img {
+	display: inline-block;
+	float: left;
+}
+/* -Battle and Friends Menu End- */
+
+/*
+ * -Store Skill and Store Item Menu-
+ */
+div.store_item,
+div.store_skill {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	font-size: 18px;
+}
+
+div.store_item table,
+div.store_skill table{
+	background-image: url(../images/ChexxTable.png);
+	width: 600px;
+}
+
+div.store_item tr,
+div.store_skill tr {
+	
+	height: 40px;
+}
+
+div.store_item td,
+div.store_skill td{
+	padding-left: 10px;
+}
+/* -Store Skill and Store Item Menu- */
+
+/*
+ * -Mission Menu-
+ */
+div.mission {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+div.mission .img {
+	width: 300px;
+	float: left;
+}
+
+div.mission .info {
+	width: 300px;
+	float: left;
+	font-size: 16px;
+}
+/* -Mission Menu End- */
+
+/*
+ * -Copyright Menu-
+ */
+div.copyright {
+	text-align: center;
+}
+/* -Copyright Menu End- */
